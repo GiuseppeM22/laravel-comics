@@ -11,7 +11,7 @@
     </section>
     <section class="bg_black">
         <div class="boxed boxedMain">
-
+            @include('partials.cards')
         </div>
     </section>
     <!-- sezione colore blue -->
@@ -19,7 +19,7 @@
         <div class="boxed icon flex">
             <div class="iconImg flex">
                 @foreach($icons as $icon)
-                    <img src={{ $icon["path"]  }} alt="icon">
+                    <img src={{ Vite::asset($icon["path"]) }} alt="icon">
                     <span>{{ $icon["name"]  }}</span>
                 @endforeach
             </div>
@@ -77,7 +77,7 @@
                 </div>
             </div>
             <div class="bigLogoImg">
-                <img src="public/assets/img/dc-logo-bg.png" alt="">
+                <img src={{Vite::asset('resources/img/dc-logo-bg.png')}} alt="">
             </div>
         </div>
     </section>

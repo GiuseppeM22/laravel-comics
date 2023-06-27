@@ -16,23 +16,23 @@ return [
     "icons" => [
         [
             "name" => 'DIGITAL COMICS',
-            "path" => "{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}"
+            "path" => "resources/img/buy-comics-digital-comics.png"
         ],
         [
             "name" => 'DC MERCHANDISE',
-            "path" => "{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}"
+            "path" => "resources/img/buy-comics-merchandise.png"
         ],
         [
             "name" => 'SUBSCRIPTION',
-            "path" => "{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}"
+            "path" => "resources/img/buy-comics-subscriptions.png"
         ],
         [
             "name" => 'COMIC SHOP LOCATOR',
-            "path" => "{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}"
+            "path" => "resources/img/buy-comics-shop-locator.png"
         ],
         [
             "name" => 'DC POWER VISA',
-            "path" => "{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}"
+            "path" => "resources/img/buy-dc-power-visa.svg"
         ]
     ]
 
