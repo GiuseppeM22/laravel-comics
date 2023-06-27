@@ -6,3 +6,4 @@
         </div>
 @endforeach
     <button class="load">LOAD MORE</button>
+    <a href="{{route('other')}}">altra pagina</a>
