@@ -65,6 +65,8 @@
 .icon {
     padding: 40px;
     justify-content: space-around;
+    max-width: 80%;
+    margin: auto;
 }
 
 .iconImg {
@@ -175,5 +177,54 @@
     padding: 10px 35px;
     font-size: 16px;
     margin: auto;
+    cursor: pointer;
+}
+
+// footer
+
+.bg_gray {
+    background-color: #303030;
+    padding-top: 30px;
+    z-index: 999;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.boxedFooter {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.signIn button {
+    color: white;
+    background-color: #303030;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid #303030;
+}
+
+.signIn button:hover {
+    border: 2px solid #0282f9;
+
+}
+
+.socials {
+    align-items: center;
+}
+
+.socials span {
+    color: #0282f9;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.socials img {
+    margin-left: 10px;
+    max-width: 25px;
     cursor: pointer;
 }

@@ -17,7 +17,7 @@ Route::get('/', function () {
     $links = config('store.links');
     $icons = config('store.icons');
     $images = config("comics.images");
-    return view('welcome', compact('links', 'icons', 'images'));
+    return view('main', compact('links', 'icons', 'images'));
 });
 
 Route::get('/otherpage', function () {

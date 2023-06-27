@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<main>
+
      <!-- sezione colore nero -->
      <section>
         <div class="jumbo">
@@ -81,5 +81,4 @@
             </div>
         </div>
     </section>
-</main>
 @endsection
