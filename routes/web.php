@@ -15,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $links = config('store.links');
-    return view('welcome', compact('links'));
+    $icons = config('store.icons');
+    return view('welcome', compact('links'), compact('icons'));
 });
 
 Route::get('/otherpage', function () {
